@@ -2,47 +2,50 @@
 for details on configuring this project to bundle and minify static web assets. */
 
 a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+    text-align: center;
+    word-break: break-all;
+    color: #FFD700; /* Yellow color for brand */
 }
 
 a {
-  color: #0077cc;
+    color: #FF4500; /* Red-Orange color for links */
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+    color: #FFFFFF;
+    background-color: #FFA500; /* Orange color for primary buttons */
+    border-color: #FF8C00; /* Darker orange for button borders */
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+    color: #FFFFFF;
+    background-color: #FFA500; /* Orange color for active links */
+    border-color: #FF8C00; /* Darker orange for active link borders */
 }
 
 .border-top {
-  border-top: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
 }
+
 .border-bottom {
-  border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    box-shadow: 0 .25rem .75rem rgba(128, 0, 128, 0.2); /* Purple shadow */
 }
 
 button.accept-policy {
-  font-size: 1rem;
-  line-height: inherit;
+    font-size: 1rem;
+    line-height: inherit;
 }
 
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+    background-color: #FFFF00; /* Yellow background for footer */
+    color: #800080; /* Purple color for footer text */
 }

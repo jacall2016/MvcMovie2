@@ -1,22 +1,30 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+/* Update the yellow color to be fainter */
+a.navbar-brand {
+    text-align: center;
+    word-break: break-all;
+    color: #FFECB3; /* Updated to a fainter yellow */
 }
 
-html {
-  position: relative;
-  min-height: 100%;
-}
-
+/* Update the fonts to a more religious or spiritual theme */
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-image: url('../images/scriptureBackgroundImage.png');
+    font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+.transparent {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 15px;
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif; /* Adjust the font-family as needed */
 }
